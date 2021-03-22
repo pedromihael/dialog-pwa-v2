@@ -1,0 +1,15 @@
+build
+coverage
+yarn.lock
+yarn-error.log
+.editorconfig
+.eslintignore
+.gitignore
+.prettierignore
+**/*.ico
+**/*.svg
+**/*.png
+**/*.jpg
+**/*.oft
+**/*.ttf
+**/*.gif
