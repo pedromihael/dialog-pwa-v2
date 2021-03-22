@@ -48,7 +48,10 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
 
-          <link rel="icon" href="https://rocketseat.com.br/favicon.ico" />
+          <link
+            href="https://static.wixstatic.com/media/1dc166_73615f9b84b545de8cba9d8a7d3c6263%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/1dc166_73615f9b84b545de8cba9d8a7d3c6263%7Emv2.png"
+            rel="icon"
+          />
         </Head>
         <body>
           <Main />
