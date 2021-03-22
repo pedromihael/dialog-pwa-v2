@@ -1,4 +1,4 @@
-import { Theme } from '../src/styles/styled'
+import { Theme } from '../styles/styled'
 
 export type ClientSettings = {
     name: string

@@ -1,6 +1,6 @@
 import { Theme } from '../src/styles/styled'
 import { clients } from '../settings/clients'
-import { ClientSettings } from '../_temp_clients-settings/ClientSettings.type'
+import { ClientSettings } from '../src/types/ClientSettings'
 import { getClientBySubdomain } from '../src/utils/getClientBySubdomain'
 
 export const getClientStylesByURL = (): Theme => {

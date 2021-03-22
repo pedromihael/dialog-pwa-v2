@@ -1,5 +1,5 @@
 import { clients } from '../../settings/clients'
-import { ClientSettings } from '../../_temp_clients-settings/ClientSettings.type'
+import { ClientSettings } from '../types/ClientSettings'
 import { getClientBySubdomain } from '../utils/getClientBySubdomain'
 
 const getClientComponentsByURL = (): any => {
