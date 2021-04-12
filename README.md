@@ -1,5 +1,8 @@
-# PWA v2
+# Dialog PWA (v2)
 
-### How to add an absolute path
+## Prerequisites
+- [x] node
+- [x] yarn
 
-TODO: how to add to tsconfig.json, babel and avoid warnings in eslint config
+## How to commit
+Run ```yarn commit``` which will run ``````
