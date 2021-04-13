@@ -7,7 +7,7 @@
         "build": "next build",
         "start": "next start",
         "eslint:fix": "eslint --ignore-path .gitignore . --fix",
-        "commit": "git add . && yarn git-cz"
+        "commit": "yarn git-cz"
     },
     "dependencies": {
         "@zeit/next-css": "^1.0.1",
