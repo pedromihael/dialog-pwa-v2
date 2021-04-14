@@ -5,4 +5,4 @@
 - [x] yarn
 
 ## How to commit
-Run ```yarn commit``` which will run ```yarn git-cz```
+Run ```git add``` and ```yarn commit``` which will run ```yarn git-cz```
