@@ -1,11 +1,13 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
+import centered from '@storybook/addon-centered'
 
 import { DefaultButton, Props } from '../src/components/Buttons/Default'
 
 export default {
     title: 'Default Button',
     component: DefaultButton,
+    decorators: [centered],
     argTypes: {
         backgroundColor: { control: 'color' }
     }
