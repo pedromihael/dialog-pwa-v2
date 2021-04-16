@@ -13,7 +13,7 @@
         "resolveJsonModule": true,
         "isolatedModules": true,
         "jsx": "preserve",
-        "rootDirs": ["./src", "./stories"]
+        "rootDirs": ["./src", "/stories"]
     },
     "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
     "exclude": ["node_modules"]

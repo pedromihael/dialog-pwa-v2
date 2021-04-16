@@ -6,9 +6,9 @@ import { getClientBySubdomain } from '../src/utils/getClientBySubdomain'
 export const getClientStylesByURL = (): Theme => {
     const clientSubdomain: string = getClientBySubdomain()
 
-    const { styles: a } = clients.find((client: ClientSettings) =>
+    const { styles } = clients.find((client: ClientSettings) =>
         client.subdomains.find(subdomain => subdomain === clientSubdomain)
     )
 
-    return a
+    return styles
 }
